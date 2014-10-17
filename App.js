@@ -81,8 +81,7 @@ Ext.define('CustomApp', {
                             Ext.defer(function () {
                                 Ext.widget('button', {
                                     renderTo: id,
-                                    text: 'see',
-                                    width: 50,
+                                    text: 'see Notes',
                                     handler: function () {
                                         that._displayNotes(data, r.data);
                                     }
